@@ -12,7 +12,7 @@
 
 __________________________________________________________________________________________________________________________________________________
 
-						*AFTER FRESH INSTALL OF KALI ON PI*
+					**AFTER FRESH INSTALL OF KALI ON PI**
 
 step 1 : speedup the repositories
 		
