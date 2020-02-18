@@ -122,13 +122,13 @@ now you can enter ***fixtime*** as a command and it will fix the issue each time
 
 ## Auto completion does not work properly
 
-		apt install bash-completion
+	apt install bash-completion
 		
-		this will bring auto completion everywehere.
+this will bring auto completion everywehere.
 
 ## *Screen* is cool tool
 
-(https://www.youtube.com/watch?v=I4xVn6Io5Nw)
+watch this video tutorial for better understanding : [How to use GNU SCREEN](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
 			
 			screen -S [session_name]
 			screen -ls					#lists the current sessions
@@ -144,6 +144,10 @@ now you can enter ***fixtime*** as a command and it will fix the issue each time
 				w to list all windows
 				" to list and select windows
 				? help
-				
-				
-		
+
+## Locate command not working
+just type in the below command and wait for it to update the database
+
+	updatedb
+	
+Use this each time a new file is added or when using the locate command.
