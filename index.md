@@ -1,37 +1,147 @@
-## Welcome to GitHub Pages
+		      ___           ___                                                   ___     
+		     /  /\         /__/\        ___                                      /  /\    
+		    /  /:/         \  \:\      /  /\                                    /  /::\   
+		   /  /:/           \__\:\    /  /:/      ___     ___   ___     ___    /  /:/\:\  
+		  /  /:/  ___   ___ /  /::\  /__/::\     /__/\   /  /\ /__/\   /  /\  /  /:/~/::\ 
+		 /__/:/  /  /\ /__/\  /:/\:\ \__\/\:\__  \  \:\ /  /:/ \  \:\ /  /:/ /__/:/ /:/\:\
+		 \  \:\ /  /:/ \  \:\/:/__\/    \  \:\/\  \  \:\  /:/   \  \:\  /:/  \  \:\/:/__\/
+		  \  \:\  /:/   \  \::/          \__\::/   \  \:\/:/     \  \:\/:/    \  \::/     
+		   \  \:\/:/     \  \:\          /__/:/     \  \::/       \  \::/      \  \:\     
+		    \  \::/       \  \:\         \__\/       \__\/         \__\/        \  \:\    
+		     \__\/         \__\/                                                 \__\/    
 
-You can use the [editor on GitHub](https://github.com/haroonalhadisk/kalipiconfig/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+__________________________________________________________________________________________________________________________________________________
+	     :::::::::::::::::::::::::::::  AFTER FRESH INSTALL OF KALI ON PI   :::::::::::::::::::::::::
+__________________________________________________________________________________________________________________________________________________
+step 1 : speedup the repositories
+		
+		1. git clone https://github.com/IceM4nn/mirrorscript-v2.git
+		2. cd mirrorscript-v2
+		3. python3 mirrorscript-v2.py -https -v
+		
+step 2 : update and upgrade
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		1. apt update
+		2. apt upgrade
+		
+step 3 : install kalipi-config
 
-### Markdown
+		1. apt install whiptail parted lua5.1 alsa-utils psmisc libraspberrypi0 libraspberrypi-dev libraspberrypi-doc libraspberrypi-bin
+		2. wget -O /usr/local/bin/kalipi-config https://raw.githubusercontent.com/Re4son/RPi-Tweaks/master/kalipi-config/kalipi-config
+		3. chmod 755 /usr/local/bin/kalipi-config
+		
+step 4 :install wifite
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		1. git clone https://github.com/derv82/wifite2.git
+		2. cd wifite2
+		3. python setup.py install
+		4. apt install reaver
+		5. apt install bully
+		6. apt install pyrit
+		7. apt install macchanger
+		8. apt install hcxdumptool
+		9. INSTALL HASHCAT : 
+			i. 	 git clone https://github.com/hashcat/hashcat.git
+			ii.  cd hashcat
+			iii. make 
+			iv.	 make install
+		10. INSTALL HCXCAPTOOLS (HCXTOOLS) :
+			i. 	 git clone https://github.com/ZerBea/hcxtools
+			ii.  apt install libssl-dev
+			iii. apt install libcurl4-gnutls-dev
+			iv. cd hcxtools/
+			v.	 make
+			vi.	 make 
+			
+step 5 : install fruitywifi
 
-```markdown
-Syntax highlighted code block
+		> You need a Raspbian, Pwnpi or Kali Linux version to use this script.
+		> Download the zip file from https://github.com/xtr4nge/FruityWifi/archive/master.zip
+		> Unzip the file and run install-FruityWiFi.sh (This script will install all the dependencies and setups)
+		> Done.
+		> Go to http://localhost:8000 (for http)
+		> Go to https://localhost:8443 (for https)
 
-# Header 1
-## Header 2
-### Header 3
+			user: admin
+			pass: admin
 
-- Bulleted
-- List
+step 6 : install ngrok
 
-1. Numbered
-2. List
+		1. wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+		2. unzip /path/to/ngrok.zip
+		3. mv ngrok /usr/bin
+		4. ngrok authtoken 1U138zDZBtqlc21UOS8U0foajoS_21zaMWMGA33hDVFZ8eAW7
+		
+step 7 : HiddenEye phishing pages
 
-**Bold** and _Italic_ and `Code` text
+		1. git clone https://github.com/DarkSecDevelopers/HiddenEye.git
+		2. chmod 777 HiddenEye
+		3. pip3 install -r requirements.txt
+		4. pip3 install requests
+		5. python3 HiddenEye.py
+	
+_________________________________________________________________________________________________________________________________
 
-[Link](url) and ![Image](src)
-```
+	Other tips:
+_________________________________________________________________________________________________________________________________
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+>>>If a grey screen is encountered on vnc change /root/.vnc/xstartup contents to this:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/haroonalhadisk/kalipiconfig/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+************************************************************************************************	
 
-### Support or Contact
+#!/bin/sh
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+startxfce4 &
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+
+************************************************************************************************		
+
+>>>>When oening a website shows certifficate error or if the ime is not correctly configured :
+
+************************************************************************************************
+
+/etc/init.d/ntp stop
+ntpd -q -g
+/etc/init.d/ntp start
+
+or we can create an executable file that can be run if date issue exists
+
+nano fixtime
+enter the above commands into the file
+mv fixtime to /usr/bin/fixtime
+
+now you can enter fixtime as a command and it will fix the issue each time. 
+
+************************************************************************************************
+
+>>>>Auto completion does not work properly :
+
+		apt install bash-completion
+		
+		this will bring auto completion everywehere.
+		
+>>> screen is cool tool  (https://www.youtube.com/watch?v=I4xVn6Io5Nw)
+			
+			screen -S [session_name]
+			screen -ls					#lists the current sessions
+			screen -r [session_name] 	#reattatch to the selected session_name
+			within session Ctrl+a 
+				then press d to detatch
+				k to kill window
+				c to create a new window
+				n or p to cycle through windows
+				\ to kill all windows
+				| or S to split screen (press Ctrl+a and tab to switch)
+				0,1,2,.... to jump to that window
+				w to list all windows
+				" to list and select windows
+				? help
+				
+				
+		
