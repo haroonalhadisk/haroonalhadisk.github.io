@@ -126,7 +126,7 @@ now you can enter fixtime as a command and it will fix the issue each time.
 		
 		this will bring auto completion everywehere.
 		
->>> screen is cool tool  (https://www.youtube.com/watch?v=I4xVn6Io5Nw)
+>>> screen is cool tool  [youtube video](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
 			
 			screen -S [session_name]
 			screen -ls					#lists the current sessions
