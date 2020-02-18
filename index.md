@@ -107,7 +107,7 @@ change /root/.vnc/xstartup contents to this:
 
 ************************************************************************************************		
 
-## When oening a website shows certifficate error or if the time is not correctly configured :
+## When opening a website shows certificate error or if the time is not correctly configured :
 
 	/etc/init.d/ntp stop
 	ntpd -q -g
