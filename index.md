@@ -73,8 +73,8 @@
 		1. wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 		2. unzip /path/to/ngrok.zip
 		3. mv ngrok /usr/bin
-		4. ngrok authtoken 1U138zDZBtqlc21UOS8U0foajoS_21zaMWMGA33hDVFZ8eAW7
-		
+		4. ngrok authtoken <paste your authtoken here>
+get the auth token from [here](https://ngrok.com/download)		
 
 ## step 7 : HiddenEye phishing pages
 
