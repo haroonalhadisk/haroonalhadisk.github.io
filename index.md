@@ -10,8 +10,9 @@
 		    \  \::/       \  \:\         \__\/       \__\/         \__\/        \  \:\    
 		     \__\/         \__\/                                                 \__\/    
 
-#AFTER FRESH INSTALL OF KALI ON PI
-
+__________________________________________________________________________________________________________________________________________________
+	     :::::::::::::::::::::::::::::  AFTER FRESH INSTALL OF KALI ON PI   :::::::::::::::::::::::::
+__________________________________________________________________________________________________________________________________________________
 step 1 : speedup the repositories
 		
 		1. git clone https://github.com/IceM4nn/mirrorscript-v2.git
@@ -81,14 +82,14 @@ step 7 : HiddenEye phishing pages
 	
 _________________________________________________________________________________________________________________________________
 
-#Other tips:
+	Other tips:
 _________________________________________________________________________________________________________________________________
 
 
-##If a grey screen is encountered on vnc change /root/.vnc/xstartup contents to this:
+>>>If a grey screen is encountered on vnc change /root/.vnc/xstartup contents to this:
 
 ************************************************************************************************	
-`
+
 #!/bin/sh
 unset SESSION_MANAGER
 unset DBUS_SESSION_BUS_ADDRESS
@@ -98,35 +99,35 @@ startxfce4 &
 [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
 xsetroot -solid grey
 vncconfig -iconic &
-`
+
 ************************************************************************************************		
 
-##When oening a website shows certifficate error or if the ime is not correctly configured :
+>>>>When oening a website shows certifficate error or if the ime is not correctly configured :
 
 ************************************************************************************************
-`
+
 /etc/init.d/ntp stop
 ntpd -q -g
 /etc/init.d/ntp start
-`
-###or we can create an executable file that can be run if date issue exists
-`
+
+or we can create an executable file that can be run if date issue exists
+
 nano fixtime
 enter the above commands into the file
 mv fixtime to /usr/bin/fixtime
-`
-###now you can enter fixtime as a command and it will fix the issue each time. 
+
+now you can enter fixtime as a command and it will fix the issue each time. 
 
 ************************************************************************************************
 
-##Auto completion does not work properly :
-`
-apt install bash-completion
-`		
-###this will bring auto completion everywehere.
+>>>>Auto completion does not work properly :
+
+		apt install bash-completion
 		
-##screen is cool tool  (https://www.youtube.com/watch?v=I4xVn6Io5Nw)
-			`
+		this will bring auto completion everywehere.
+		
+>>> screen is cool tool  (https://www.youtube.com/watch?v=I4xVn6Io5Nw)
+			
 			screen -S [session_name]
 			screen -ls					#lists the current sessions
 			screen -r [session_name] 	#reattatch to the selected session_name
@@ -141,6 +142,6 @@ apt install bash-completion
 				w to list all windows
 				" to list and select windows
 				? help
-			`	
+				
 				
 		
