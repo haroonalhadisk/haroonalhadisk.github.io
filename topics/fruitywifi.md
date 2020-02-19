@@ -29,7 +29,7 @@ Go to https://localhost:8443 (for https)
 
 ![fruitywifi](http://fruitywifi.com/img/001.png)
 
-.
+
 ![fruitywifi config](http://fruitywifi.com/img/002.png)
 
 
