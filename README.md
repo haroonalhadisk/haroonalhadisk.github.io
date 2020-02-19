@@ -13,7 +13,7 @@
 	    \  \::/       \  \:\         \__\/       \__\/         \__\/        \  \:\    
 	     \__\/         \__\/                                                 \__\/    
 
-
+#visit [kalipiconf.tk](https://kalipiconf.tk)
 
 # AFTER FRESH INSTALL OF KALI ON PI
 
