@@ -10,3 +10,5 @@
  - Autocompletion
  - GNU screen
  - Access point *(hotspot or tethering)*
+ 
+[<- cd ..](https://kalipiconf.tk)
