@@ -60,7 +60,7 @@ list of all topics : [link](https://kalipiconf.tk/list)
 			vi.	 make install
 			
 
-## step 5 : install fruitywifi
+## step 5 : install fruitywifi [-h](https://kalipiconf.tk/topics/fruitywifi)
 
 		> You need a Raspbian, Pwnpi or Kali Linux version to use this script.
 		> Download the zip file from https://github.com/xtr4nge/FruityWifi/archive/master.zip
@@ -76,10 +76,10 @@ list of all topics : [link](https://kalipiconf.tk/list)
 
 		1. wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 		2. unzip /path/to/ngrok.zip
-		3. mv ngrok /usr/bin
+		3. mv ngrok /usr/bin/ngrok
 		4. ngrok authtoken <paste your authtoken here>
 
-get the auth token from [here](https://ngrok.com/download)	
+get the auth token from [here](https://dashboard.ngrok.com/auth)	
 now to use ngrok you can type `ngrok 4444 http` or `ngrok 1234 tcp`
 
 ## step 7 : HiddenEye phishing pages
