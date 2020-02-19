@@ -136,21 +136,23 @@ this will bring auto completion everywehere.
 ## *Screen* is cool tool 
 
 watch this video tutorial for better understanding : [How to use GNU SCREEN](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
-			
-			screen -S [session_name]
-			screen -ls					#lists the current sessions
-			screen -r [session_name] 	#reattatch to the selected session_name
-			within session Ctrl+a 
-				then press d to detatch
-				k to kill window
-				c to create a new window
-				n or p to cycle through windows
-				\ to kill all windows
-				| or S to split screen (press Ctrl+a and tab to switch)
-				0,1,2,.... to jump to that window
-				w to list all windows
-				" to list and select windows
-				? help
+```		
+screen -S [session_name]
+screen -ls					#lists the current sessions
+screen -r [session_name] 	#reattatch to the selected session_name
+within session Ctrl+a 
+	then press d to detatch
+		k to kill window
+		c to create a new window
+		n or p to cycle through windows
+		\ to kill all windows
+		| or S to split screen (press Ctrl+a and tab to switch)
+		0,1,2,.... to jump to that window
+		w to list all windows
+		" to list and select windows
+		? help
+```			
+
 **[detailed info](https://kalipiconf.tk/topics/gnuscreen)**
 ## Locate command not working
 just type in the below command and wait for it to update the database
