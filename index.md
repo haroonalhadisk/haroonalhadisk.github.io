@@ -47,17 +47,17 @@
 		7. apt install macchanger
 		8. apt install hcxdumptool
 		9. INSTALL HASHCAT : 
-			i. 	 git clone https://github.com/hashcat/hashcat.git
+			i.   git clone https://github.com/hashcat/hashcat.git
 			ii.  cd hashcat
 			iii. make 
-			iv.	 make install
+			iv.  make install
 		10. INSTALL HCXCAPTOOLS (HCXTOOLS) :
-			i. 	 git clone https://github.com/ZerBea/hcxtools
+			i.   git clone https://github.com/ZerBea/hcxtools
 			ii.  apt install libssl-dev
 			iii. apt install libcurl4-gnutls-dev
-			iv. cd hcxtools/
-			v.	 make
-			vi.	 make install
+			iv.  cd hcxtools/
+			v.   make
+			vi.  make install
 			
 
 ## step 5 : install fruitywifi
