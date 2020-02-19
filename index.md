@@ -13,19 +13,17 @@
 	    \  \::/       \  \:\         \__\/       \__\/         \__\/        \  \:\    
 	     \__\/         \__\/                                                 \__\/    
 
-
-
 list of all topics : [link](https://kalipiconf.tk/list)
 
 # AFTER FRESH INSTALL OF KALI ON PI
 
-## step 1 : speedup the repositories
+## $step 1 :  ./ speedup the repositories  [-h](https://kalipiconf.tk/topics/speed_up_kali_repositories)
 
 		1. git clone https://github.com/IceM4nn/mirrorscript-v2.git
 		2. cd mirrorscript-v2
 		3. python3 mirrorscript-v2.py -https -v		
 
-## step 2 : update and upgrade
+## $step 2 : update and upgrade
 
 		1. apt update
 		2. apt upgrade
@@ -49,17 +47,17 @@ list of all topics : [link](https://kalipiconf.tk/list)
 		7. apt install macchanger
 		8. apt install hcxdumptool
 		9. INSTALL HASHCAT : 
-			i.   git clone https://github.com/hashcat/hashcat.git
+			i. 	 git clone https://github.com/hashcat/hashcat.git
 			ii.  cd hashcat
 			iii. make 
-			iv.  make install
+			iv.	 make install
 		10. INSTALL HCXCAPTOOLS (HCXTOOLS) :
-			i.   git clone https://github.com/ZerBea/hcxtools
+			i. 	 git clone https://github.com/ZerBea/hcxtools
 			ii.  apt install libssl-dev
 			iii. apt install libcurl4-gnutls-dev
-			iv.  cd hcxtools/
-			v.   make
-			vi.  make install
+			iv. cd hcxtools/
+			v.	 make
+			vi.	 make install
 			
 
 ## step 5 : install fruitywifi
@@ -81,8 +79,7 @@ list of all topics : [link](https://kalipiconf.tk/list)
 		3. mv ngrok /usr/bin
 		4. ngrok authtoken <paste your authtoken here>
 
-get the auth token from [here](https://ngrok.com/download).	
-
+get the auth token from [here](https://ngrok.com/download)	
 now to use ngrok you can type `ngrok 4444 http` or `ngrok 1234 tcp`
 
 ## step 7 : HiddenEye phishing pages
