@@ -1,16 +1,18 @@
 # ngrok.
 
 Tunnels. tunnels. tunnels
+
  If you have ever tried phishing you will defenetely know what ngrok is. if you don't **you need to**.
  
 ngrok is a tunneling tool. What this means in simpler terms is that ngrok can convert your localhost into a remotly accessible ip. It can be http, https, or even tcp.
 
 **why is this so important?**
+
 as you can see if we want to remotely access a device (meterpreter or otherwise) we need to host our device to the web. this is a hard process to do and we need a dedicated router for the same. ngrok makes this much easier. its provides us an internet address along with port number making it possible to hack any device or webpage from our device. visit their [official site](https://ngrok.com/) for more info
 
 ## here is how to install ngrok:
 
-first signup to ngrok from here : [signup](https://dashboard.ngrok.com/signup)
+**first signup to ngrok from here : [signup](https://dashboard.ngrok.com/signup)**
 
 Download the zip file using the below command: 
 ```
