@@ -21,4 +21,5 @@ python3 mirrorscript-v2.py -https -v
 we can now delete the *mirrorscript-V2* if needed. just `cd ..` and then use command `rm -r mirrorscript-V2`
 
 [<- cd ..](https://kalipiconf.tk/list)
+
 [<- cd /home/](https://kalipiconf.tk/)
