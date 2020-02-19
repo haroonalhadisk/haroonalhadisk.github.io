@@ -8,7 +8,7 @@ ngrok is a tunneling tool. What this means in simpler terms is that ngrok can co
 **why is this so important?**
 as you can see if we want to remotely access a device (meterpreter or otherwise) we need to host our device to the web. this is a hard process to do and we need a dedicated router for the same. ngrok makes this much easier. its provides us an internet address along with port number making it possible to hack any device or webpage from our device. visit their [official site](https://ngrok.com/) for more info
 
-**here is how to install ngrok**:
+## here is how to install ngrok:
 
 first signup to ngrok from here : [signup](https://dashboard.ngrok.com/signup)
 
