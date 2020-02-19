@@ -97,18 +97,19 @@ now to use ngrok you can type `ngrok 4444 http` or `ngrok 1234 tcp`
 
 ## If a grey screen is encountered on vnc 
 change /root/.vnc/xstartup contents to this:
+```
+#!/bin/sh
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+startxfce4 &
 
-	#!/bin/sh
-	unset SESSION_MANAGER
-	unset DBUS_SESSION_BUS_ADDRESS
-	startxfce4 &
-
-	[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
-	[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
-	xsetroot -solid grey
-	vncconfig -iconic &
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+```
 **[more help](https://kalipiconf.tk/topics/setupvnc)**
-************************************************************************************************		
+	
 
 ## When opening a website shows certificate error or if the time is not correctly configured :
 
