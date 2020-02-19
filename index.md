@@ -77,6 +77,7 @@
 		2. unzip /path/to/ngrok.zip
 		3. mv ngrok /usr/bin
 		4. ngrok authtoken <paste your authtoken here>
+
 get the auth token from [here](https://ngrok.com/download)		
 
 ## step 7 : HiddenEye phishing pages
