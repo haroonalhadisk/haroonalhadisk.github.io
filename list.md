@@ -1,7 +1,7 @@
 # ALL TOPICS
 
  - [Speedup kali repository](https://kalipiconf.tk/topics/speed_up_kali_repositories)  *(faster apt update & upgrade)*
- - Install kalipi-config  *(easier command line setup for kali pi)*
+ - [Install kalipi-config](https://kalipiconf.tk/topics/kalipiconfig)  *(easier command line setup for kali pi)*
  - Wifite
  - FruityWifi
  - ngrok
