@@ -72,7 +72,7 @@ list of all topics : [link](https://kalipiconf.tk/list)
 			user: admin
 			pass: admin
 
-## step 6 : install ngrok
+## step 6 : install ngrok [-h](https://kalipiconf.tk/topics/ngrok)
 
 		1. wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 		2. unzip /path/to/ngrok.zip
@@ -82,7 +82,7 @@ list of all topics : [link](https://kalipiconf.tk/list)
 get the auth token from [here](https://dashboard.ngrok.com/auth)	
 now to use ngrok you can type `ngrok 4444 http` or `ngrok 1234 tcp`
 
-## step 7 : HiddenEye phishing pages
+## step 7 : HiddenEye phishing pages [-h](https://kalipiconf.tk/topics/hiddeneye)
 
 		1. git clone https://github.com/DarkSecDevelopers/HiddenEye.git
 		2. chmod 777 HiddenEye
@@ -107,7 +107,7 @@ change /root/.vnc/xstartup contents to this:
 	[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
 	xsetroot -solid grey
 	vncconfig -iconic &
-
+**[more help](https://kalipiconf.tk/topics/setupvnc)**
 ************************************************************************************************		
 
 ## When opening a website shows certificate error or if the time is not correctly configured :
@@ -132,7 +132,7 @@ now you can enter ***fixtime*** as a command and it will fix the issue each time
 		
 this will bring auto completion everywehere.
 
-## *Screen* is cool tool
+## *Screen* is cool tool 
 
 watch this video tutorial for better understanding : [How to use GNU SCREEN](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
 			
@@ -150,7 +150,7 @@ watch this video tutorial for better understanding : [How to use GNU SCREEN](htt
 				w to list all windows
 				" to list and select windows
 				? help
-
+**[detailed info](https://kalipiconf.tk/topics/gnuscreen)**
 ## Locate command not working
 just type in the below command and wait for it to update the database
 
