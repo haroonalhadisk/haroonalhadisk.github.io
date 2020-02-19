@@ -29,14 +29,14 @@ list of all topics : [link](https://kalipiconf.tk/list)
 		2. apt upgrade
 		
 
-## step 3 : install kalipi-config
+## step 3 : install kalipi-config [-h](https://kalipiconf.tk/topics/kalipiconfig)
 
 		1. apt install whiptail parted lua5.1 alsa-utils psmisc libraspberrypi0 libraspberrypi-dev libraspberrypi-doc libraspberrypi-bin
 		2. wget -O /usr/local/bin/kalipi-config https://raw.githubusercontent.com/Re4son/RPi-Tweaks/master/kalipi-config/kalipi-config
 		3. chmod 755 /usr/local/bin/kalipi-config
 		
 
-## step 4 :install wifite
+## step 4 :install wifite [-h](https://kalipiconf.tk/topics/wifite)
 
 		1. git clone https://github.com/derv82/wifite2.git
 		2. cd wifite2
