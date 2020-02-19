@@ -3,7 +3,7 @@
  - [Speedup kali repository](https://kalipiconf.tk/topics/speed_up_kali_repositories)  *(faster apt update & upgrade)*
  - [Install kalipi-config](https://kalipiconf.tk/topics/kalipiconfig)  *(easier command line setup for kali pi)*
  - [Wifite](https://kalipiconf.tk/topics/wifite)
- - FruityWifi
+ - [FruityWifi](https://kalipiconf.tk/topics/fruitywifi)
  - ngrok
  - HiddenEye
  - Setup VNC kali pi
