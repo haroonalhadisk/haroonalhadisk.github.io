@@ -57,7 +57,7 @@
 			iii. apt install libcurl4-gnutls-dev
 			iv. cd hcxtools/
 			v.	 make
-			vi.	 make 
+			vi.	 make install
 			
 
 ## step 5 : install fruitywifi
@@ -79,8 +79,7 @@
 		3. mv ngrok /usr/bin
 		4. ngrok authtoken <paste your authtoken here>
 
-get the auth token from [here](https://ngrok.com/download).	
-
+get the auth token from [here](https://ngrok.com/download)	
 now to use ngrok you can type `ngrok 4444 http` or `ngrok 1234 tcp`
 
 ## step 7 : HiddenEye phishing pages
