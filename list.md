@@ -1,3 +1,3 @@
 layout: page
 title: "/Topics"
-permalink: /list/
+permalink: /topics/
