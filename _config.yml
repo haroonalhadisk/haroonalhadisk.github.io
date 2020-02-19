@@ -1,4 +1,5 @@
 theme: jekyll-theme-hacker
 title: KaliPiConf
 description: things to do after installing kali on a raspberry pi.
-is_project_page: false
+github:
+  is_project_page: false
