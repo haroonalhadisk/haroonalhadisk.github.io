@@ -15,6 +15,8 @@
 
 
 
+list of all topics : [link](https://kalipiconf.tk/list)
+
 # AFTER FRESH INSTALL OF KALI ON PI
 
 ## step 1 : speedup the repositories
