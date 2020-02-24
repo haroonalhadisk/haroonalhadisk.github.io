@@ -36,6 +36,7 @@ apt install python3-pip
 pip3 install requests
 ```
 and this should solce the issue
+
 out put afterards:
 ```
 root@kali-pi:~/mirrorscript-v2# python3 mirrorscript-v2.py -https -v
