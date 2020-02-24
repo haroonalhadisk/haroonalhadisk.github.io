@@ -35,7 +35,7 @@ apt install python3
 apt install python3-pip
 pip3 install requests
 ```
-and this should solce the issue
+and this should solve the issue
 
 out put afterards:
 ```
