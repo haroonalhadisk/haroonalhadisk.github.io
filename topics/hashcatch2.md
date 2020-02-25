@@ -110,6 +110,7 @@ now run `./hashcatch --setup` again and all problems should be solved.
 
 now you can run `./hashcatch` to capture all nearby handshakes. or use `cp hashcatch /bin/hashcatch` to run the script from anywhere by typing `hashcatch`
 
+usage : [https://asciinema.org/a/AQEzLSxo7teoxPzNSJfwn4UNQ](https://asciinema.org/a/AQEzLSxo7teoxPzNSJfwn4UNQ)
 
 Handshakes captured will be stored in `/usr/share/hashcatch/handshakes/`
 
