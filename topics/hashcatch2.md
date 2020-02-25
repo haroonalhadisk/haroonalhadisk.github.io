@@ -132,3 +132,9 @@ You can also add an `ignore` field to mention the WiFi networks you want hashcat
 interface=wlan0
 ignore=Google Starbucks,AndroidAP
 ```
+
+
+
+[<- cd ..](https://kalipiconf.tk/list)
+
+[<- cd /home/](https://kalipiconf.tk/)
