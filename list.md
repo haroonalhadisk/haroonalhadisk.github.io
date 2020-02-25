@@ -6,6 +6,7 @@
  - [FruityWifi](https://kalipiconf.tk/topics/fruitywifi)
  - [ngrok](https://kalipiconf.tk/topics/ngrok)
  - [HiddenEye](https://kalipiconf.tk/topics/hiddeneye)
+ - [Hashcatch](https://kalipiconf.tk/topics/hashcatch) *(automatic handshake capture)*
  - [Setup VNC kali pi](https://kalipiconf.tk/topics/setupvnc)
  - [Autocompletion](https://kalipiconf.tk/topics/autocompletion)
  - [GNU screen](https://kalipiconf.tk/topics/gnuscreen)
