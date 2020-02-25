@@ -76,7 +76,7 @@ to solve this just install jq:
 apt install jq
 ```
 
-another issue that can arrise is this:
+another issue that can arise is this:
 
 ```
 root@kali:~/hashcatch# ./hashcatch --setup
