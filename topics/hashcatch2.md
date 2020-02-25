@@ -97,7 +97,7 @@ root@kali:~/hashcatch# ./hashcatch --setup
 [*] All necessary packages are found installed
 [*] Done
 ```
-this is caused as hashcatch cannot create folders to solve the issue just create all the missind directories (not files)
+this is caused as hashcatch cannot create folders to solve the issue just create all the missing directories (not files)
 ```
 mkdir /etc/hashcatch/
 ```
