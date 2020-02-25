@@ -108,7 +108,7 @@ now run `./hashcatch --setup` again and all problems should be solved.
 **thats it ....**
 
 
-now you can run `./hashcatch` to capture all nearby handshakes.
+now you can run `./hashcatch` to capture all nearby handshakes. or use `cp hashcatch /bin/hashcatch` to run the script from anywhere by typing `hashcatch`
 
 
 Handshakes captured will be stored in `/usr/share/hashcatch/handshakes/`
@@ -132,7 +132,6 @@ You can also add an `ignore` field to mention the WiFi networks you want hashcat
 interface=wlan0
 ignore=Google Starbucks,AndroidAP
 ```
-
 
 
 [<- cd ..](https://kalipiconf.tk/list)
