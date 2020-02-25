@@ -46,7 +46,7 @@ hashcatch uses cap2hccapx and when this module is not found in your /bin/ folder
 ```
 wget https://raw.githubusercontent.com/hashcat/hashcat-utils/master/src/cap2hccapx.c
 gcc cap2hccapx.c -o cap2hccapx
-cp cap2hccapx /bin/capcap2hccapx
+cp cap2hccapx /bin/cap2hccapx
 ```
 and just like that the problem was solved!!
 
@@ -100,6 +100,8 @@ root@kali:~/hashcatch# ./hashcatch --setup
 this is caused as hashcatch cannot create folders to solve the issue just create all the missing directories (not files)
 ```
 mkdir /etc/hashcatch/
+mkdir /usr/share/hashcatch/
+mkdir /usr/share/hashcatch/handshakes/
 ```
 
 now run `./hashcatch --setup` again and all problems should be solved.
@@ -138,3 +140,4 @@ ignore=Google Starbucks,AndroidAP
 [<- cd ..](https://kalipiconf.tk/list)
 
 [<- cd /home/](https://kalipiconf.tk/)
+
