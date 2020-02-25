@@ -61,6 +61,12 @@ apt install hcxdumptool
  make install
  ```
 
+**tshark**
+```
+apt install tshark
+```
+
+
 **Cracking WPS PIN using `reaver`'s Pixie-Dust attack, then fetching WPA key using `bully`:** ![reaver and bully](https://camo.githubusercontent.com/f42cc52be78e6cf23a93ecae7dda9799660fe87b/68747470733a2f2f692e696d6775722e636f6d2f51354b534462672e676966)
 
 **Cracking WPA key using PMKID attack:**
