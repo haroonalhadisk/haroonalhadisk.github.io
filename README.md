@@ -158,3 +158,25 @@ just type in the below command and wait for it to update the database
 	updatedb
 	
 Use this each time a new file is added or when using the locate command.
+
+
+## Configure Your "Kali-Pi" to Connect to Your Android by USB
+
+Because we will be walking (or driving) around to various areas , outside , we will need to connect to our Pi with our Android over a wired connection . That being said, we need to configure Kali to recognize our android when we plug it into our Pi by the Charging cable.
+
+Now that you are VNC'd into kali :
+
+Open a Terminal and enter the following command:
+
+sudo nano /etc/network/interfaces
+
+Next paste the following text to the bottom of the text file, then save by pressing "ctrl-x " then exit by pressing "y"
+
+allow-hotplug usb0
+iface usb0 inet static
+address 192.168.42.42
+netmask 255.255.255.0
+network 192.168.42.0
+broadcast 192.168.42.255
+
+you can now unplug the Pi
