@@ -186,3 +186,8 @@ broadcast 192.168.42.255
 
 
 you can now unplug the Pi
+
+# Pyrit : clone the github repository and installation
+```sh
+git clone https://github.com/hacker3983/how-to-install-pyrit-on-kali-linux-2020.1a pyrit-installer && cd pyrit-installer && sudo bash install.sh
+```
