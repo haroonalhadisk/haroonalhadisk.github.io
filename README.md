@@ -173,10 +173,16 @@ sudo nano /etc/network/interfaces
 Next paste the following text to the bottom of the text file, then save by pressing "ctrl-x " then exit by pressing "y"
 
 allow-hotplug usb0
+
 iface usb0 inet static
+
 address 192.168.42.42
+
 netmask 255.255.255.0
+
 network 192.168.42.0
+
 broadcast 192.168.42.255
+
 
 you can now unplug the Pi
